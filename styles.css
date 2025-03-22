@@ -1,0 +1,155 @@
+.customnavbar{
+    background-color: rgba(226, 170, 235, 0.74);
+    
+}
+
+
+
+img{
+    border-radius: 20rem;
+   width: 3.5rem;
+   height: 3.5rem;
+    margin-right: 30px;
+}
+
+a{
+    margin-left: 30px;
+}
+
+#nav-mobile li a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 1rem;
+    transition: 1.5s;
+   margin-top: 0.5rem;
+    
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    background-color: rgba(226, 170, 235, 0.74);
+    margin-top: 20px;
+}
+
+#sobrenosotros p{
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+
+#productos h3{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(226, 170, 235, 0.74);
+    margin-top: 90px;
+}
+
+
+.card{
+    height: 310px;
+    width: 200px;
+    transition: all 0.8s ease;
+}
+
+.card:hover{
+    height: 575px;
+    width: 200px;
+    transition: all 0.8s ease;
+    background-color: rgba(226, 170, 235, 0.315);
+    
+    
+}
+
+.card:hover .card-title{
+    background-color: #eae8e8a3;
+    border-radius: 20px;
+    transition: 2s;
+    
+}
+
+#plata .card:hover{
+    height: 400px;
+    width: 200px;
+    transition: all 0.8s ease;
+    background-color: rgba(226, 170, 235, 0.315);
+    
+}
+
+.card .card-image .card-title{
+  color: #000000;
+  font-size: 20px;
+ 
+}
+
+.card img{
+    height: 250px;
+
+    
+}
+
+#tarjetas #plata{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+#tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.footer {
+    background-color: rgba(226, 170, 235, 0.74);
+    color: #fff; /* Texto claro */
+  text-align: center; /* Centra el contenido */
+  padding: 20px 10px; /* Espaciado interno */
+  font-size: 14px; /* Tamaño de fuente */
+  margin-top: 3rem;
+}
+
+.footer-content p {
+  margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.social-links a {
+  margin: 0 10px; /* Espaciado entre íconos */
+  color: #fff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 20px; /* Tamaño de los íconos */
+}
+
+.social-links a:hover {
+  color: #000000; /* Cambia el color al pasar el ratón */
+  transition: 2s;
+}
+
+@media (max-width: 360px){
+    #sobrenosotros p{
+        margin-left: none;
+        margin-right: none;
+       
+        
+    }
+}
+
+
+
+.card p{
+    display: none;
+}
+
+
+
+.card:hover p{
+    display: block;
+    
+}
+
+

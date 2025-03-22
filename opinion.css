@@ -1,0 +1,86 @@
+.customnavbar{
+    background-color: rgba(226, 170, 235, 0.74);
+    
+}
+
+img{
+    border-radius: 20rem;
+    margin-top: 0.5rem;
+    margin-right: 30px;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+a{
+    margin-left: 30px;
+}
+
+#nav-mobile li a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 1rem;
+    transition: 1.5s;
+   margin-top: 0.5rem;
+    
+}
+
+.footer {
+    background-color: rgba(226, 170, 235, 0.74);
+    color: #fff; /* Texto claro */
+  text-align: center; /* Centra el contenido */
+  padding: 20px 10px; /* Espaciado interno */
+  font-size: 14px; /* Tamaño de fuente */
+  margin-top: 3rem;
+}
+
+.footer-content p {
+  margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.social-links a {
+  margin: 0 10px; /* Espaciado entre íconos */
+  color: #fff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 20px; /* Tamaño de los íconos */
+}
+
+.social-links a:hover {
+  color: #000000; /* Cambia el color al pasar el ratón */
+  transition: 2s;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(248, 176, 255, 0.441);
+    
+}
+p{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+ 
+li{
+    list-style: none;
+}
+
+#opinion{
+    margin: 20px;
+}
+
+.btn-primary{
+    background-color: rgba(226, 170, 235, 0.74);
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    background-color: rgba(226, 170, 235, 0.74);
+    margin-top: 20px;
+}
