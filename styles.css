@@ -76,6 +76,13 @@ h2{
     
 }
 
+#productonuevo .card:hover{
+    height: 420px;
+    width: 200px;
+    transition: all 0.8s ease;
+    background-color: rgba(226, 170, 235, 0.315);
+}
+
 .card .card-image .card-title{
   color: #000000;
   font-size: 20px;
@@ -150,6 +157,13 @@ h2{
 .card:hover p{
     display: block;
     
+}
+
+#productonuevo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 

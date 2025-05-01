@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: rgba(226, 170, 235, 0.74);
+
+}
+
+#imagen{
+    margin: 20px;
+
+}
+
+form{
+    
+    background-color: azure;
+    
+}
+
+#agregar{
+    margin: 10px;
+
+}
+
+p{
+    background-color: aliceblue;
+    justify-content: center;
+}
